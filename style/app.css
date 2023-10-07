@@ -1,10 +1,26 @@
-body {
-    font-family: 'Nunito', sans-serif;
+:root {
+  --primary-color: rgb(85, 107, 47);
+  --secondary-color: #333;
+  --background-color: #556b2f63;
 }
-h1{
-    color: red;
-    font-family: 'Young Serif', serif;
-}
-p{
 
+body {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  color: var(--secondary-color);
+  font-family: "Young Serif", serif;
+}
+a {
+  background: var(--primary-color);
+  text-decoration: none;
+  color: #faebd7;
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+}
+.hero {
+  text-align: center;
+  background: var(--background-color);
+  padding: 160px 0;
 }
