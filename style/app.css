@@ -7,6 +7,7 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+
 h1 {
   color: var(--secondary-color);
   font-family: "Young Serif", serif;
@@ -17,7 +18,8 @@ h2 {
   font-family: "Young Serif", serif;
 }
 
-h3 {
+h3,
+h4 {
   font-size: 24px;
   color: var(--secondary-color);
   font-family: "Young Serif", serif;
@@ -40,6 +42,9 @@ nav ul {
   padding: 10px 20px;
   border: 2px solid var(--primary-color);
   border-radius: 10px;
+}
+footer {
+  padding: 20px;
 }
 .contact-me:hover {
   color: #faebd7;
@@ -140,6 +145,46 @@ a {
 .logo {
   width: 80px;
 }
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icons a {
+  background-color: var(--background-color);
+  margin: 1px 12px;
+  padding: 12px 14px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons i {
+  font-size: 25px;
+}
+.social-icons a:hover {
+  background: var(--primary-color);
+  color: #faebd7;
+  cursor: pointer;
+}
+.email-link:hover {
+  color: var(--primary-color);
+}
+.contact-box {
+  display: flex;
+  width: 80%;
+  margin: 30px auto 60px auto;
+  background: var(--background-color);
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-box p {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 45px;
@@ -196,5 +241,8 @@ a {
   }
   .nav-list {
     width: 100%;
+  }
+  .social-icons {
+    padding: 9px 12px;
   }
 }
