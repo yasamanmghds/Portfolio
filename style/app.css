@@ -265,4 +265,7 @@ a {
   .social-icons {
     padding: 9px 12px;
   }
+  .info {
+    font-size: 18px;
+  }
 }
