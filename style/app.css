@@ -225,7 +225,7 @@ a {
     font-size: 22px;
   }
   .button {
-    height: 70px;
+    padding: 30px;
     width: 70%;
   }
 
