@@ -118,8 +118,8 @@ footer {
 }
 
 .projects {
-  margin-top: 10px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 75px;
 }
 
 .nav-list {
@@ -186,8 +186,8 @@ a {
   font-weight: 800;
 }
 .contact-card {
-  background: var(--background-color);
-  width: 90%;
+  border: 3px dashed var(--primary-color);
+  width: 80%;
   margin: auto;
   border-radius: 10px;
   padding: 30px;
@@ -198,6 +198,12 @@ a {
 }
 .contact-card a:hover {
   color: var(--primary-color);
+}
+
+.info {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 800;
 }
 @media (max-width: 900px) {
   h1 {
